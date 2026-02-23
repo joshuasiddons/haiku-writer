@@ -12,3 +12,9 @@
 - had some trouble setting up calls to back end - was using proxy in vite settings wrong
     - did manually without proxy, using full url, and it worked fine !
 
+- removed the vast majority of boilerplate code so I could really learn how the app is working
+    - i think i will start from scratch without vite for my next project
+
+- been using gemini to research stacks, find out what the file structure is all about, etc.
+    - not been using it for code generation since i want to learn!
+        - this is one bit that i will need to work on after this project, since I have used a generator (vite) to set most of it up
