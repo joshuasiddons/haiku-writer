@@ -9,3 +9,6 @@
 - followed this tutorial to set up the project (but will be departing from this soon)
     - https://www.youtube.com/watch?v=mKmxc8TcWQ8
 
+- had some trouble setting up calls to back end - was using proxy in vite settings wrong
+    - did manually without proxy, using full url, and it worked fine !
+
