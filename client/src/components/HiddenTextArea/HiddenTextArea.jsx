@@ -1,6 +1,6 @@
 import styles from './HiddenTextArea.module.scss';
 
-function HiddenTextArea({ elementID }) {
+function HiddenTextArea({ elementID, autoFocus }) {
 
     const resizeBox = () => {
         const box = document.getElementById(elementID);
@@ -13,6 +13,7 @@ function HiddenTextArea({ elementID }) {
             name='input'
             id={elementID}
             className={styles.hiddenTextArea}
+            autoFocus={autoFocus}
             onInput={resizeBox}
             cols='30'
             rows='1'
