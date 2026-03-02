@@ -27,3 +27,4 @@
 - Researched how to add scripts in jsx, by using react properties like onClick, allowing me to focus the text box by clicking anywhere on the page
     - Also learnt how to use this to automatically resize the text box as the user inputs more lines
 - The main text entry field is now complete. I am going to add some stats that will appear in the bottom corner
+- Learnt to use react useState hook to share data between components (a textarea and a stats box for it)

@@ -1,13 +1,14 @@
 import styles from './HiddenTextArea.module.scss';
 
-function HiddenTextArea({ elementID, autoFocus, setChars, setLines }) {
-
+function HiddenTextArea({ elementID, doAutoFocus, setChars, setLines }) {
     const resizeBox = () => {
         const box = document.getElementById(elementID);
         box.style.height = '0';
         box.style.height = box.scrollHeight + 'px';
+
+        const lh = parseInt(box.style.lineHeight);
         setChars(box.textLength);
-        setLines(box.rows);
+        setLines(box.height / lh);
     }
 
     return (
@@ -15,7 +16,7 @@ function HiddenTextArea({ elementID, autoFocus, setChars, setLines }) {
             name='input'
             id={elementID}
             className={styles.hiddenTextArea}
-            autoFocus={autoFocus}
+            autoFocus={doAutoFocus}
             onInput={resizeBox}
             autoComplete='off'
             rows='1'

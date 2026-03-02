@@ -7,10 +7,8 @@ function App() {
     const [chars, setChars] = useState(0);
     const [lines, setLines] = useState(0);
 
-    const thisTextArea = document.getElementById('HiddenTextArea');
-
     const selectText = () => {
-        thisTextArea.focus();
+        document.getElementById('HiddenTextArea').focus();
     }
 
     return (
@@ -18,7 +16,7 @@ function App() {
             <div className='TextAreaContainer'>
                 <HiddenTextArea
                     elementID='HiddenTextArea'
-                    autoFocus={true}
+                    doAutoFocus={true}
                     setChars={setChars}
                     setLines={setLines}
                 />
