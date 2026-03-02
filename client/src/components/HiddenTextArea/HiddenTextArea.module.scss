@@ -4,4 +4,9 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
   color: colors.$text;
+  border: white 1px solid;
+  outline: none;
+  resize: none;
+
+  font-size: 2rem;
 }
