@@ -8,7 +8,6 @@ function App() {
         thisTextArea.focus();
     }
 
-
     return (
         <div className='App' onClick={selectText}>
             <div className='TextAreaContainer'>
