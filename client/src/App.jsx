@@ -1,11 +1,19 @@
-import { useState, useEffect } from 'react';
-import './App.css';
-import axios from 'axios';
+import './App.scss';
+import HiddenTextArea from "./components/HiddenTextArea/HiddenTextArea.jsx";
 
 function App() {
-  return (
-      <h1>Hello, world</h1>
-  )
+
+    const selectText = () => {
+        document.getElementById('HiddenTextArea').focus();
+    }
+
+    return (
+        <div className="App" onClick={selectText}>
+            <HiddenTextArea
+                elementID="HiddenTextArea"
+            />
+        </div>
+    )
 }
 
 export default App

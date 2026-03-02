@@ -1,0 +1,7 @@
+@use '../../styles/_colors.scss' as colors;
+
+.hiddenTextArea {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: colors.$text;
+}

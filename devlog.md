@@ -18,3 +18,5 @@
 - been using gemini to research stacks, find out what the file structure is all about, etc.
     - not been using it for code generation since i want to learn!
         - this is one bit that i will need to work on after this project, since I have used a generator (vite) to set most of it up
+
+- early on i did some debugging with nvm (node verison manager) to change which version of node is being used (ended up with just the latest lts)
