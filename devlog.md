@@ -20,3 +20,10 @@
         - this is one bit that i will need to work on after this project, since I have used a generator (vite) to set most of it up
 
 - early on i did some debugging with nvm (node verison manager) to change which version of node is being used (ended up with just the latest lts)
+
+## 2026-03-02
+
+- Working on app again - been restructuring to a more standard react project structure - done a lot of research for this
+- Researched how to add scripts in jsx, by using react properties like onClick, allowing me to focus the text box by clicking anywhere on the page
+    - Also learnt how to use this to automatically resize the text box as the user inputs more lines
+- The main text entry field is now complete. I am going to add some stats that will appear in the bottom corner
