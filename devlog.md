@@ -28,3 +28,4 @@
     - Also learnt how to use this to automatically resize the text box as the user inputs more lines
 - The main text entry field is now complete. I am going to add some stats that will appear in the bottom corner
 - Learnt to use react useState hook to share data between components (a textarea and a stats box for it)
+- currently trying to get a line counter to work - this is proving difficult due to having to calculate the size of the box
