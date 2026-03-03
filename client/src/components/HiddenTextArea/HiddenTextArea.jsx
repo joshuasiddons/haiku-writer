@@ -6,12 +6,8 @@ function HiddenTextArea({ elementID, doAutoFocus, setChars, setLines }) {
         box.style.height = '0';
         box.style.height = box.scrollHeight + 'px';
 
-        const lh = 2 * parseInt(getComputedStyle(document.documentElement).fontSize);
-
         setChars(box.textLength);
-        console.log(box.style.height);
-        console.log(lh);
-        setLines((parseInt(box.style.height) - 10) / lh);
+        setLines(parseInt(box.style.height) / parseInt(getComputedStyle(box).lineHeight));
     }
 
     return (
