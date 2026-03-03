@@ -29,3 +29,7 @@
 - The main text entry field is now complete. I am going to add some stats that will appear in the bottom corner
 - Learnt to use react useState hook to share data between components (a textarea and a stats box for it)
 - currently trying to get a line counter to work - this is proving difficult due to having to calculate the size of the box
+
+## 2026-03-03
+
+- Was able to get the line counter working by accessing line height via getComputedStyle - I still need to do more research on what exactly this does

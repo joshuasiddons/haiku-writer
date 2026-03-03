@@ -3,6 +3,7 @@
 .App {
   width: 100%;
   height: stretch;
+  background-color: colors.$base;
 }
 
 .TextAreaContainer {
@@ -10,4 +11,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.StatsContainer {
+  display: flex;
+  height: 20%;
+  justify-content: end;
+  margin: 4rem;
 }

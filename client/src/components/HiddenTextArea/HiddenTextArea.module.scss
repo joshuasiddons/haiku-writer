@@ -2,7 +2,7 @@
 
 .hiddenTextArea {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: colors.$base;
   color: colors.$text;
   //border: white 1px solid; // DEBUG ONLY
   border: none;

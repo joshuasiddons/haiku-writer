@@ -21,7 +21,9 @@ function App() {
                     setLines={setLines}
                 />
             </div>
-            <TextAreaStats chars={chars} lines={lines} />
+            <div className='StatsContainer'>
+                <TextAreaStats chars={chars} lines={lines} />
+            </div>
         </div>
     )
 }
